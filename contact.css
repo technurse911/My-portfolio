@@ -1,6 +1,5 @@
 .contact{
     margin: 0;
-    padding-top: 50px;
     box-sizing: border-box;
     font-family: sans-serif;
 }
@@ -58,8 +57,8 @@ input[type=submit]:hover {
 
     /* RESPONSIVENESS  */
         
-*{@media (max-width: 768px){
-    margin: 0;
+ @media (max-width: 768px){
+   *{ margin: 0;
     padding: 40px;
     box-sizing: border-box;
     font-family: sans-serif; }
