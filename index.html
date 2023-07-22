@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />   
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.2/jquery-ui.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.2/jquery-ui.structure.css">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="C:\Users\adesi\My website\My-portfolio\contact.css">
 
 </head>
 <body>
@@ -30,15 +30,13 @@
         </div>
 
             <div class="dropdown_menu">
-                <li><a href="C:\Users\adesi\My website\My-portfolio\index.html">Home</a></li>
+                <li><a href="">Home</a></li>
                 <li><a href="home">About Me</a></li>
-                <li><a href="C:\Users\adesi\My website\My-portfolio\project.html" target="_blank">Projects</a></li>
-                <li><a href="C:\Users\adesi\My website\My-portfolio\contact.html" target="_blank">Contact</a></li>
+                <li><a href="" target="">Contact</a></li>
                 <li> <a href="#" class="action_btn">LOGO</a></li>
             </div>     
     </header>
 
-    <main>
         <section id ="hero">
             <h1>Welcome</h1>
             <p> <span class="first_letter">A</span>llow me to introduce myself, a nurse by profession and a self-taught web developer<br></p>
@@ -52,11 +50,78 @@
             <p><span class="first_letter">D</span>ocumentation, And community forums,absorbing everything about web development from HTML, CSS, <br> </p>
 
             <p><span class="first_letter">A</span>nd JAVASCRIPT to more advanced frameworks like REACT and NODE.JS.<br></p>
-                    <br>
-
-              <button class="discover"><a href="">Discover More</a></button>
         </section>
-    </main>
+
+
+     <!-- main -->
+     <div id="div1">
+        <h2>Website Template</h2>
+        <div id="text">
+            <p>A website template sample, colorfully built with HTML, CSS, and and a bit of Javascript .<br> Hoping you enjoy the lovely demo.</p>
+            <button class="btn2"><a href="https://technurse911.github.io/Website-Template/"> Demo </a></button>
+            <button class="btn"><a href="https://github.com/technurse911/Website-Template.github.io"> Source</a></button>
+        </div>
+
+        <h2>CSS Clock</h2>
+        <div id="text">
+            <p> A digital clock created with CSS<br> Hoping you enjoy the demo.</p>
+            <button class="btn2"><a href="https://technurse911.github.io/CSS-Clock/"> Demo</a></button>
+            <button class="btn"><a href="https://github.com/technurse911/CSS-Clock">  Source</a></button>
+        </div>
+
+        <h2>Clothing-Website</h2>
+        <div id="text">
+            <p>A clothing website  <br> built with HTML, CSS, and JavaScript</p>
+            <button class="btn2"><a href="https://technurse911.github.io/Clothing-website/"> Demo</a></button>
+            <button class="btn"><a href="https://github.com/technurse911/Clothing-website"> Source </a></button>
+        </div>
+
+        <h2>Stopwatch</h2>
+        <div id="text">
+            <p>A stopwatch built majorly with javascript and a bit of HTML and CSS  <br> Hoping you enjoy the view</p>
+            <button class="btn2"><a href="https://technurse911.github.io/Stopwatch/"> Demo</a></button>
+            <button class="btn"><a href="https://github.com/technurse911/Stopwatch.git"> Source </a></button>
+        </div>
+
+        <h2>Oral Quick</h2>
+        <div id="text">
+            <p> A simple landing page for an online healthcare vendor. <br> Built with HTML, CSS and Javascript.</p>
+            <button class="btn2"><a href="https://technurse911.github.io/OralQuick/"> Demo </a></button>
+            <button class="btn"><a href="https://github.com/technurse911/OralQuick.github.io"> Source </a></button>
+        </div>
+
+        
+        <h2>Weather-app</h2>
+        <div id="text">
+            <p>A Weather-app that uses the user's current location to display the location and current temperature <br> Hoping you enjoy the view</p>
+            <button class="btn2"><a href="https://technurse911.github.io/Stopwatch/"> Demo</a></button>
+            <button class="btn"><a href="https://github.com/technurse911/Stopwatch.git"> Source </a></button>
+        </div>
+
+        <h2>Chatbot</h2>
+        <div id="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing  sucipit eos asperiores doloribus, quisquam <br> rem corporis minima maxime. Tenetur, quod.</p>
+            <button class="btn2"> <a href="https://github.com/technurse911/Chatbot.git"> Demo</a></button>
+            <button class="btn"><a href="https://github.com/technurse911/Chatbot.git"> Source</a></button>
+        </div>
+    </div>
+
+
+    
+    <div class="contact">
+        <div class="form1">
+        <h1>ASK A <br>  <br>QUESTION</h1>
+        <H3>Please contact me for any enquiries</H3>
+        </div>
+        <form class="form">
+        <input type="text" name="" id="fullname" placeholder="Enter your name"> <br>
+        <input type="text" name="" id="email" placeholder="Enter your email" pattern="[A-Za-z]{@}"> <br>
+        <input type="text" name="" id="" placeholder="Feel free to ask any question" style="height: 70px;"> <br>
+        <input type="submit" value="Submit">
+
+        </form>
+    </div>
+</body>
 
     <script>
         const toggleBtn = document.querySelector('.toggle_btn')
@@ -72,7 +137,8 @@
              : "fa-solid fa-bars "
         }
     </script>
-            <!-- <script src="JQ.js" type="text/javascript"></script> -->
 
-</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js" integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="project.js" type="text/javascript"></script>
+<script src="jquery-ui-1.13.2/jquery-ui.js" type="text/javascript"></script>
 </html>
