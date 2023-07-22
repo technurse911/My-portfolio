@@ -1,0 +1,73 @@
+.contact{
+    margin: 0;
+    padding-top: 50px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+input[type=text], select{
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #F23D3D;
+        border-radius: 4px;
+    }
+   
+input[type=submit] {
+  background-color: #F23D3D;
+  color: white;
+  padding: 15px 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} 
+
+input[type=submit]:hover {
+  background-color: #F23D3D;
+  
+}
+
+.form{
+  padding: 30px;
+  background-color: #f2f2f2;
+  text-align: center;
+} 
+.form1{
+    background-color: #F23D3D;
+    color: white;
+    text-align: center; 
+     padding: 0;}
+
+    input[type=text]:focus {
+      outline: none;
+      border: 3px solid #F23D3D;
+}
+
+    h3, h4{
+    font-family: 'Times New Roman', Times, serif;
+    }
+    .form1 h1 h4{
+        font-size: 3rem;
+        font-weight: normal;
+    }
+    .form1 h1{
+        padding-top: 1rem;
+    }
+
+    /* RESPONSIVENESS  */
+        
+*{@media (max-width: 768px){
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+    font-family: sans-serif; }
+
+    .form1{
+        font-size: medium;
+    }
+    .form{
+        padding: 10px;
+    }
+}
