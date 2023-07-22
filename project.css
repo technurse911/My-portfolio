@@ -5,9 +5,13 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body{
-    background-color: #1D0C59;
-}
+
+    body{
+        background-color: #1D0C59;
+        color: white;
+        background-size:cover;
+        background-position: center;
+    }
 
 /* NAVBAR */
 
@@ -28,11 +32,11 @@ a:hover,
 }
 
 header{
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
+    margin-bottom: 3rem;
     padding: 0.2rem;
-    
+    position: relative;
+    background-color: #F23D3D;
 }
 
 .navbar{
@@ -52,7 +56,7 @@ header{
     font-weight: bold;
 }
 .logo a{
-    color: #F23D3D;
+    color: white;
    }
 
 .navbar .links {
@@ -68,8 +72,8 @@ header{
 }
 
 .action_btn{
-    background-color: #F23D3D;
-    color: rgb(238, 199, 170);
+    background-color: white;
+    color: white;
     padding: 0.5rem 1rem;
     border: none;
     outline: none;
@@ -87,6 +91,30 @@ color: white;
 
 .action_btn:active{
     scale: 0.95;
+}
+
+
+#hero{
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    line-height:2rem;
+    margin-left: 3rem;
+    color: white;
+    
+}
+
+#hero h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom:1rem ;
+}
+.first_letter{
+   font-size: 1.3rem;
+   font-weight: medium;
 }
 
 /* DROPDOWN MENU */
@@ -120,6 +148,20 @@ color: white;
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.discover{
+    background-color: #F23D3D;
+    padding: 10px 10px;
+    border: 1px solid #F23D3D;
+    border-radius: 2px;
+    margin-top: 3rem;
+   
+}
+
+.discover a{
+    color: white;
+    font-size: medium;
 }
 
 #div1{
@@ -164,6 +206,7 @@ color: white;
 }
 .ui-widget-content{
     background-color:#1D0C59;
+    border: 1px solid white;
 }
 
 
@@ -187,6 +230,10 @@ color: white;
     .dropdown_menu{
         left: 2rem;
         width: unset;
+    }
+    #hero{
+        align-items: center;
+
     }
 
 }
